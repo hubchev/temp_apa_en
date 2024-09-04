@@ -1,0 +1,13 @@
+if (!require(pacman)) install.packages("pacman”)
+pacman::p_load(tidyverse, kableExtra)
+
+load(url("https://github.com/crsh/papaja/raw/main/tests/testthat/data/mixed_data.rdata”))
+descriptives <- mixed_data |>  
+  group_by(Dosage) |> 
+  summarize(
+    Mean = mean(Recall), 
+    Median = median(Recall),
+    SD = sd(Recall),
+    Min = min(Recall),
+    Max = max(Recall)
+  )

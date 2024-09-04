@@ -1,0 +1,113 @@
+---
+university: "XXX Hochschule Fresenius / University of Applied Science XXX"
+studiengang: |
+    | XXX Faculty of Economics and Media XXX
+    | XXX International Business School XXX
+    | XXX International Business Management XXX
+place: "XXX Cologne Campus XXX"
+
+title: "XXX Your Title XXX"
+title-secondline: ""
+subtitle: ""
+shorttitle: ""
+suppress-short-title: true
+
+thesistype: "XXX Bachelor’s/Master’s Thesis XXX"
+studyprogram: "XXX Bachelor of Arts (B.A.)/Bachelor of Laws (LL.B.)/Bachelor of Science (B.Sc.)/Master of Arts (M.A.)/Master of Business Administration (MBA)/Master of Science (M.Sc.) XXX"
+
+author:
+  - name: "XXX Your Name XXX"
+    affiliations:
+      city: Cologne
+    corresponding: false
+studentid: "XXX"
+examiner1: Prof. Dr. XXX
+examiner2: Prof. Dr. XXX
+
+duedate: "XXX January 13, 2026 XXX"
+
+nondisclosure: false
+nondisclosuredate: "January 1, 2076"
+
+bibliography: "literatur.bib"
+# csl: "https://www.zotero.org/styles/deutsche-gesellschaft-fur-psychologie"
+
+format:
+  apaquarto-pdf:
+    documentmode: stu
+floatsintext: true
+fig-pos: 't'
+number-sections: true
+a4paper: true
+fontsize: 12pt
+indent-skip-first: false
+indent-skip-all: false
+lang: en
+---
+  
+
+# Zusammenfassung {.unnumbered}
+
+\noindent 
+This template was created by Prof. Dr. Stephan Huber. It is based on the Quarto extension `apaquarto` created by @Schneider2024quarto. More detailed explanations and examples of use can be found in the PDF “roadshow_apa_en.pdf”.
+
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+\clearpage
+\listoffigures
+\listoftables
+
+\newpage
+
+\newpage
+
+# Literaturverzeichnis {.unnumbered}
+
+::: {#refs}
+:::
+
+# Introduction
+
+Text
+
+# Main Body
+
+## Heading 
+
+Text
+
+## Another Heading
+
+Text
+
+# Conclusion
+
+\newpage
+\appendix
+
+
+
+# Affidavit 
+I hereby affirm that this submitted paper was authored unaided and solely by me. Additionally, no other sources than those in the reference list were used.
+Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited with regard to their origin and authorship.
+This paper either in parts or in its entirety, be it in the same or similar form, has not been submitted to any other examination board and has not been published.
+
+Location, Date
+
+
+Signature
+
+\newpage
+
+# Affidavit (for emprical work) 
+I hereby affirm that this submitted paper was authored unaided and solely by me. Additionally, no other sources than those in the reference list were used. 	
+Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited with regard to their origin and authorship.
+This paper either in parts or in its entirety, be it in the same or similar form, has not been submitted to any other examination board and has not been published.
+The data analyzed in this paper have not been made up or falsified. They have been collected independently and as indicated or they have been provided by reliable and indicated sources for this new- or reanalysis. I agree to provide the first examiner upon request with the original data until five years after the submission of this paper. 
+
+Location, Date
+
+
+Signature
+
