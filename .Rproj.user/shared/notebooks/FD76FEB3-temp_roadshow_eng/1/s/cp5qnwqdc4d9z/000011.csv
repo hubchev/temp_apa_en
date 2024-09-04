@@ -1,9 +1,0 @@
-"0","# Load required packages
-if (!require(pacman)) install.packages(""pacman”)
-pacman::p_load(tidyverse, kableExtra)
-load(url(""https://github.com/crsh/papaja/raw/main/tests/testthat/data/mixed_data.rdata”))
-"
-"2","Error: unexpected symbol in:
-""pacman::p_load(tidyverse, kableExtra)
-load(url(""https""
-"
