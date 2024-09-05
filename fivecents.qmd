@@ -50,8 +50,7 @@ lang: en
 # Abstract {-}
 
 \noindent 
-In this paper, I provide guidance on writing an academic thesis in accordance with the style guidelines set by Fresenius University of Applied Sciences. My aim is to encourage students to harness the full potential of their computers to assist them in their thesis writing. This includes the use of a Quarto \LaTeX\ template, a bibliography manager, and appropriate online tools. 
-I also aim to improve the quality of the papers I review by addressing common, easily avoidable mistakes students make, recommending sources on how to write well, and explaining how to identify poor sources that are inappropriate for an academic paper. 
+In this paper, I provide guidance on writing an academic thesis in accordance with the style guidelines set by Fresenius University of Applied Sciences. I encourage students to use their computers to assist them in their thesis writing. This includes the use of a Quarto or \LaTeX\ template, a bibliography manager, and appropriate language tools. I address common, easily avoidable mistakes students make, I recommend sources on how to write well, and I explain how to identify poor sources that are inappropriate for an academic papers. 
  
 \newpage
 \thispagestyle{empty}
@@ -60,89 +59,76 @@ I also aim to improve the quality of the papers I review by addressing common, e
 \newpage
 # Introduction
 
-When writing a thesis, it is important to make the best possible use of your available resources (time, intellect, technology, supervision, etc.). In this paper, I will provide you with tips on how to do this effectively. I will not offer much specific advice on good writing, structuring your thesis, or adhering to academic rules and conventions, as excellent resources already exist:
+In this paper, I provide tips on how to use of the available resources (time, intellect, technology, supervision, etc.) efficiently when writing a academic paper. I refrain from specific advice on good writing, structuring your thesis, or adhering to academic rules and conventions. Therefore, I recommend the following resources:
 
 - @Nikolov2023Writing: _Writing Tips for Crafting Effective Economics Research Papers_
 - @Cochrane2005: _Writing Tips for Ph. D. Students_
 - @Zinsser2016Writing: _On Writing Well: The Classic Guide to Writing Nonfiction_
 - @StrunkJr1999Elements: _The Elements of Style_
 
-@Nikolov2023Writing and @Cochrane2005 offer excellent and concise guides with numerous tips you shouldn't miss. @Zinsser2016Writing elaborates on how to write in a convincing, clear, and appealing manner. @StrunkJr1999Elements focuses on grammar and language. It has existed for more than a century and is available online [here](http://www.jlakes.org/ch/web/The-elements-of-style.pdf) or slightly abridged [here](https://assets.uni-augsburg.de/media/filer_public/11/63/1163e0de-57ae-4b3d-8485-7155dc131235/strunkwhite-tipps-stilelemente.pdf).
+@Nikolov2023Writing and @Cochrane2005 offer excellent and concise guides with numerous tips you shouldn't miss. @Zinsser2016Writing elaborates on how to write in a convincing, clear, and appealing manner. The long-seller @StrunkJr1999Elements focuses on grammar and language and is available online [here](http://www.jlakes.org/ch/web/The-elements-of-style.pdf) or slightly abridged [here](https://assets.uni-augsburg.de/media/filer_public/11/63/1163e0de-57ae-4b3d-8485-7155dc131235/strunkwhite-tipps-stilelemente.pdf).
 
-
-I also hope that my tips will help to reduce the number of poorly completed and written theses, so that I can keep my assessment reports short and not have to list all the shortcomings to justify poor grades.
+The next sections hopefully make the theses that I must examine a bit better so that I can keep my assessment reports short and not have to list all the shortcomings to justify poor grades.
 
 
 # Consider Failure as an Option
 
-Students fail with their final thesis. Even if they can redo the work with a new topic, much of the work and time they put into their failed thesis is lost. You should be aware of this. A thesis is a performance test, and performance is measured by output divided by time. The amount of time you can spend on your thesis is externally limited, but you can influence the output. This all sounds overly intuitive, but I've seen students who were devastated when they got informed of their failure. Failure can be a big deal.
-It can result in having to pay tuition for a few more months, explaining to parents that they have to cancel the graduation flight they already booked, and more. Being aware of the consequences of failure motivates you and increases your chances of success enormously.
+You can fail with your thesis. Unfortunately, that happens frequently. Even if there is a second attempt possible, much of the work and time you have put into the failed thesis is lost. Please be aware of this. Failure can result in having to pay tuition for a few more months, explaining to parents that they have to cancel the flight for the graduation ceremony, and more. 
 
 # Do What You Can Do
 
-Everybody has different talents and writing a thesis requires a special setup of skill. Some of them are difficult to acquire shortly before or during working on your thesis. Luckily some things can be worked out easily and quickly as they are not directly linked to analytical abilities or language wise talents. One of the most straightforward areas where you can excel is by strictly following the formal guidelines set by your university. This includes adhering to the required format for the title page, thesis structure, and bibliography. It is crucial to follow a specific style guide, as deviations from the rules can lead to a deduction of points by the examiner. Therefore, I highly recommend discussing these guidelines with your supervisor. In my experience, most supervisors appreciate when students consistently follow any style guide.
+Everybody has different talents and writing a thesis requires a special setup of skill. Some of them are difficult to acquire shortly before or during working on your thesis. Luckily some things can be worked out easily and quickly as they are not directly linked to analytical abilities or language wise talents. For example, strictly following the formal guidelines set by your university does not require you to be smart. It just takes a bit of time and effort. I highly recommend discussing the guidelines with your supervisor. In my experience, most supervisors are not overly strict but want students to consistently follow one style guide. That means, whatever rules you apply, do not change  (or forget) the rules within your thesis.
 
 Below, I provide some examples of common, easily avoidable mistakes that students often make:
 
 
-- Students often fail to capitalize titles, headings, and entries in their literature lists consistently. The APA style guide of the @APA2020Publication, for example, allows for two types of capitalization for headings within papers: title capitalization and sentence capitalization (see [here](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case)). Since the rules regarding what should and should not be capitalized can be complicated, and no one wants to memorize them, I recommend using the online tool [capitalizemytitle.com](https://capitalizemytitle.com/), which provides the correctly formatted heading when you paste it into the tool and select a style.
+- Most students often fail to capitalize titles, headings, and entries in their literature lists consistently. The APA style guide of the @APA2020Publication, for example, allows for two types of capitalization for headings within papers: title capitalization and sentence capitalization (see [here](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case)). Since the rules regarding what should and should not be capitalized can be complicated, and no one wants to memorize them, I recommend using the online tool [capitalizemytitle.com](https://capitalizemytitle.com/), which provides the correctly formatted heading when you paste it into the tool and select a style.
 
-- Students often forget to include the academic titles of the examiners or misspell something on the title page. This may seem insignificant, but it is an unnecessary error that the examiners unfortunately notice first.
+- Students often forget to include the academic titles of the examiners or misspell something on the title page. This may seem insignificant, but it is an unnecessary error that the examiners notice first.
 
-- Students frequently do not include all the literature cited in the text in their bibliography and there are often entries in their list that are not cited in the text. Moreover, citations in the reference list are often incomplete and inconsistently formatted. To avoid these issues, I strongly recommend using software. Applying the many rules of writing and style guides like APA or MLA can be challenging for humans, but computers can learn, memorize, and apply a large number of rules quickly and accurately. Take advantage of that. @sec-pc introduces some tools for this purpose.
+- Students frequently do not include all the literature cited in the text in their bibliography and there are often entries in their list that are not cited in the text. Moreover, citations in the reference list are often incomplete and inconsistently formatted. To avoid these issues, I strongly recommend using software. Applying the many rules of writing and style guides like APA or MLA can be challenging for humans, but computers can memorize and apply a large number of rules quickly and accurately. Take advantage of that! @sec-pc introduces some tools for this purpose.
 
-- Students often cite literature without including page numbers. Whenever you refer to a specific argument or fact rather than the entire paper, it's important to indicate the exact page(s) where the information can be found. Although some style guides require page numbers only for direct quotes, it's generally a good idea to include them. This consideration makes it easier for the reader of your thesis to locate the specific argument you reference. When students cite books that span hundreds of pages, it can be nearly impossible for the reader to find the information cited. Additionally, including page numbers assists the examiner in verifying your citations. If you're unsure, consult your supervisor.
+- Students often cite literature without including page numbers. Whenever you refer to a specific argument or fact rather than the entire paper, it's recommendable to indicate the exact page(s) where the information can be found. Although some style guides require page numbers only for direct quotes, it's a good idea to include them. This makes it easier for the reader of your thesis to locate the specific argument you reference. When students cite books that span hundreds of pages, it can be nearly impossible for the reader or examiner to find the information cited. If you're unsure, consult your supervisor.
 
-- Many theses lack proper in-text citations, relying instead on references enclosed in brackets at the end of the paragraphs or the sentence. This approach leaves readers without context, making it unclear which information the references are meant to support. Frequently, the source of information remains ambiguous. A more effective strategy would involve integrating in-text citations that directly connect referenced works with the specific points they are meant to substantiate. This would provide readers with a clearer understanding of the sources’ relevance and contribution.
+- Many theses lack proper in-text citations, relying instead on references enclosed in brackets at the end of the paragraphs or the sentence. This approach leaves readers without context, making it unclear which information the references are meant to support. A more effective strategy would involve integrating in-text citations that directly connect referenced works with the specific points they are meant to substantiate. 
 
-- Students often make spelling, punctuation, spelling and grammar mistakes that could have been easily avoided by using modern language tools, see @sec-languagetools.
+- Students often make spelling, punctuation, and grammar mistakes that could have been easily avoided by using modern language tools, see @sec-languagetools.
 
-- Finally, I often see students having a section with a single subsection. This does not make a lot of  sense and often indicates a poor structure.
+- Finally, I often see students having a section with a single subsection. This does not make a lot of sense and often indicates a poor structure.
 
 # Do Things in the Right Order
 
-Process and time management are essential. When writing a thesis, students often start with the easy tasks because it feels good to accomplish something quickly. However, a thesis is not a sprint, and how well you start matters less than how well you finish. I recommend investing time in tasks that will benefit you throughout the process until submission day. While every research project is unique, I believe that familiarizing yourself with helpful tools from the beginning is crucial; some of these tools are introduced in @sec-pc. Additionally, I suggest setting aside a few days before the deadline to polish your text. This includes improving grammar, reducing redundancies, clarifying your contributions, enhancing readability, and ensuring that your arguments effectively guide the reader. Poor language and weak explanations can make it difficult, or even impossible, for the examiner to recognize the brilliance of your ideas and your command of the literature. Guiding the reader is particularly important because your thesis is lengthy; you don't want to leave the reader unsatisfied for 30 pages, only to introduce key explanations out of nowhere. Remember, the text of your thesis is the sole basis for the examiner’s evaluation.
-
-
-
+Process and time management are essential. To accomplish something quickly feels good, but don't procrastinate the  more challenging tasks. A thesis is not a sprint, and how well you start matters less than how well you finish. I recommend investing time in tasks that will benefit you throughout the process until submission day. I believe that familiarizing yourself with helpful tools from the beginning is crucial. I introduce some of tools in @sec-pc. Additionally, I suggest setting aside a few days before the deadline to polish your text. This includes improving grammar, reducing redundancies, clarifying your contributions, enhancing readability, and ensuring that your arguments effectively guide the reader. Poor language and weak explanations can make it difficult, or even impossible, for the examiner to recognize the brilliance of your ideas and your command of the literature. Guiding the reader is particularly important because your thesis is lengthy; you don't want to leave the reader unsatisfied for 30 pages, only to introduce key explanations out of nowhere. Remember, the text of your thesis is the sole basis for the examiner's evaluation.
 
 # Use the Computer {#sec-pc}
 
-
-
 ## Use Modern Language Tools {#sec-languagetools}
 
-Many language tools exist. Starting from simple thesauruses and basic grammar checkers, software applications have advanced significantly over the past few years, particularly due to the integration of artificial intelligence. To improve your language, I especially recommend considering large language models such as [ChatGPT](https://chatgpt.com), specialized tools such as [Grammarly](https://www.grammarly.com), or by using [DeepL](https://www.deepl.com). While DeepL is primarily a translation tool, it can also be used to check the language, find synonyms and verify the intended meaning of written words. This is particularly useful if the language you are writing your work in is not your native language.
-
-However, it's important to use these modern tools wisely. Generating text with tools like ChatGPT can sometimes result in content filled with generic phrases and dictionary-like definitions that may not closely relate to your topic or effectively address the questions of interest. The language, repetitions, the neutral tone, and specific phrases (e.g., "to delve into" and "through careful analysis") may indicate the inappropriate use of these tools. To avoid generic or irrelevant content, refine and personalize the suggestions from the large language tools.
+Many smart language tools exist. Using them efficiently and successfully is crucial nowadays. I recommend considering  [ChatGPT](https://chatgpt.com), [Grammarly](https://www.grammarly.com), and [DeepL](https://www.deepl.com). While DeepL is primarily a translation tool, it can also be used to check the language, find synonyms and verify the intended meaning of written words. This is particularly useful if the language you are writing your work in is not your native language. Grammarly and ChatGPT are great to improve the language.  However, it's important to use these modern tools wisely. Generating text with tools like ChatGPT can sometimes result in content filled with generic phrases and dictionary-like definitions that may not closely relate to your topic or effectively address the questions of interest. The language, repetitions, the neutral tone, and specific phrases (e.g., "to delve into" and "through careful analysis") may indicate the inappropriate use of these tools. To avoid generic or irrelevant content, refine and personalize the suggestions from the large language tools. 
 
 ## Use Quarto or LaTeX {#sec-quartolatex}
 
-Familiarize yourself with software that you can use to write your work on a PC. Even if you are familiar with Microsoft Word or Apple Pages, I recommend Quarto or LaTeX. Using these alternatives does require some training, but the quality of the documents is excellent and the tools provide valuable support. The structured workflows help students to avoid mistakes, save time and, most importantly, make fewer errors that can have a negative impact on their grades. I provide templates for Quarto and LaTeX that ensure compliance with all formatting rules specified by HS Fresenius and facilitate the integration of literature and the correct creation of bibliographies. This document, for example, was written with Quarto. 
+Familiarize yourself with word processing software. Even if you are familiar with Microsoft Word or Apple Pages, I recommend [Quarto](https://quarto.org/) or [LaTeX](https://www.latex-project.org/). Using these alternatives does require some training, but the quality of the documents is excellent and the tools provide valuable support. The structured workflows help students to avoid mistakes, save time and, most importantly, make fewer errors that can have a negative impact on their grades. I provide templates for Quarto and LaTeX that ensure compliance with all formatting rules specified by Fresenius University and facilitate the integration of literature and the correct creation of bibliographies. This document, for example, was written with Quarto. @Telford2023Markdown offers a guide on how to write a thesis with Quarto. 
 
 - You can find the LaTeX template on [Overleaf](https://www.overleaf.com/latex/templates/thesis-hsf/kmzcxdmcqgsq) or [GitHub](https://github.com/hubchev/courses/tree/main/tex/thesis_hsf).
-- The Quarto template can be found on GitHub in the repository [academic_thesis](https://github.com/hubchev).
+- The Quarto template can be found on GitHub in the repository [temp_apa_en](https://github.com/hubchev/temp_apa_en). 
 
 
-## Use a Reference Manager {#sec-ref}
+## Use a Reference Management Software {#sec-ref}
 
-I've found that many students underestimate the time required to format their text according to academic writing style. I recommend using reference management software. Unlike humans, computers excel at consistently applying numerous formatting rules. Don’t waste your time on tedious, repetitive tasks -- let your computer handle it. 
+Don't waste your time on tedious, repetitive tasks like citing and sorting literature according some complex academic citation style. Let the computer handle it.  
 
-If you use Quarto or LaTeX, you can easily cite literature with BibTeX, which saves the literature entries in a file with the extension .bib. This file is a plain text file that can be opened and edited with any editor. However, I recommended to use a reference manager, which makes it easier to add new literature, find BibTeX keys to cite articles, and manage references. Personally, I think [Jabref](https://www.jabref.org/) is excellent. It is a lightweight program that is compatible with Windows, Apple and Linux operating systems, and it is open source, which means it is free. 
-
+If you use Quarto or LaTeX, you can easily cite literature with [BibTeX](https://www.bibtex.org/), which saves the literature entries in a file with the extension .bib. While this file is a plain text file that can be opened and edited with any text editor, a reference management software such as [JabRef](https://www.jabref.org/) helps to handle bibliographic data. JabRef is an open source lightweight software application that is compatible with Windows, Apple and Linux operating systems. 
 
 ## Use MS Word and Pages the Right Way
 
-If you decide to use writing tools like MS Word or Pages, make sure to take advantage of the tools these software packages offer. For example, they allow you to manage and insert citations and automatically generate a table of contents.
-
+If you decide to use writing tools like MS Word or Pages, make sure to take advantage of the tools these software packages offer. For example, they allow you to manage and insert citations and automatically generate a the reference list.
 
 # Use Resources Carefully
 
-
 ## University
 
-Every university has its own rules and regulations. Make sure to inform yourself proactively.
-As a student of the International Business School of the University of Applied Science Fresenius, the page [Collective Information for Writing your Thesis (Bachelor & Master)](https://ilias.hs-fresenius.de/goto_HSF_grp_2124504.html) on ILIAS includes:
+Inform yourself proactively about the rules and regulations of your university. For example, if you are a student of the International Business School of the University of Applied Science Fresenius you receive informations from the examination office and the page [Collective Information for Writing your Thesis (Bachelor & Master)](https://ilias.hs-fresenius.de/goto_HSF_grp_2124504.html) on ILIAS includes:
 
 - Tools and formal instructions (e.g., proxy activation, paper formatting).
 - Program-specific regulations and guidelines.
@@ -152,12 +138,12 @@ As a student of the International Business School of the University of Applied S
 
 ## Supervisor
 
-Every project is unique, and so are the examiners and supervisors involved. It is essential to discuss your project with your supervisors to ensure alignment on what your thesis can, should, and must deliver. Also, agree on what can be excluded and how to structure your work. Seek recommendations, and if you disagree with your supervisor's suggestions, communicate that clearly. Otherwise, follow your professor's advice.
+Every project is unique, and so are the examiners and supervisors involved. It is essential to discuss your project with your supervisors to ensure alignment on what your thesis can, should, and must deliver. It is important to agree on what can be excluded and how to structure your work. Seek recommendations, and if you disagree with your supervisor's suggestions, communicate that clearly before you submit the thesis. Otherwise, follow your professor's advice.
 
-Let me inform you about the typical procedure when I am your first supervisor:
+Every supervisor has his own idea to guide you well. Here is my typical procedure:
 
 1. __Initial Contact:__ Email me to ask if I have the capacity to supervise your thesis.
-1. __Initial Meeting:__ If I am available, we should schedule a meeting. In this meeting, I'd like to get to know you and your ideas. Please inform me about your subject preferences, your relevant skills (e.g., familiarity with empirical methods if you plan to work on an empirical topic), and your post-graduation goals. Ideally, come prepared to discuss a specific topic you have in mind. A detailed research proposal is not required; just explain your ideas concisely.  If possible, send me a research paper that closely aligns with what you aim to do.
+1. __Initial Meeting:__ If I am available, we should schedule a meeting. In this meeting, I'd like to get to know you and your ideas. Please inform me about your subject preferences, your relevant skills (e.g., familiarity with empirical methods if you plan to work on an empirical topic), and your post-graduation goals. Ideally, come prepared to discuss a specific topic you have in mind. A detailed research proposal is not required; just explain your ideas concisely.  If possible, send me a research paper that closely aligns with what you aim to do before the meeting.
 1. __Topic Development:__ After our meeting, we both will conduct some research to finalize a title for your thesis. Through email exchanges, we will agree on a title and collaboratively develop a non-binding abstract to guide your work.
 1. __Formal Application:__ You will formally apply to write the thesis. Send me the necessary form; I will complete my sections, and then you can submit it to the examination office.
 1. __Start of Work:__ The examination office will notify you of your official start date.
@@ -168,7 +154,7 @@ Let me inform you about the typical procedure when I am your first supervisor:
 
 # Literature
 
-Consider the quality of the resources you read and cite very carefully. Avoid predatory journals and be cautious of information from online blogs, magazines, and other media without a peer-review process. Aim to find more reliable sources from reputable institutes with a strong peer-review process and non-profit motivations. Do not simply rely on the first Google search result or the selection provided by Google Scholar, as listing there does not guarantee reliability or quality. Don't cite articles and books published by vanity presses. Identifying predatory journals can be challenging, but there are some clear indicators of dubious quality. Here is a checklist to help determine if a source is valid:
+Consider the quality of the resources you read and cite very carefully. Avoid predatory journals and be cautious of information from online blogs, magazines, and other media without a peer-review process. Aim to find more reliable sources from reputable institutes with a reliable peer-review process and non-profit motivations. Do not simply rely on the first Google search result or the selection provided by Google Scholar, as listing there does not guarantee reliability or quality. Don't cite articles and books published by vanity presses. Identifying predatory journals can be challenging, but there are some clear indicators of dubious quality. Here is a checklist to help determine if a source is valid:
 
 - __Listing in Beall’s List:__ Check if the journal or publisher is included in [Beall's List](https://beallslist.net/) or on [TUM's website](https://www.ub.tum.de/en/predatory-journals).
 - __Open-Access status:__ Determine if the paper or journal is open-access. If it is, consider who is financing the journal. Predatory journals often require authors to pay for publication, and their peer-review process is often questionable.
