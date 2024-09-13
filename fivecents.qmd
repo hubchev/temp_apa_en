@@ -50,14 +50,14 @@ lang: en
 # Abstract {-}
 
 \noindent 
-In this paper, I provide guidance on writing an academic thesis in accordance with the style guidelines set by Fresenius University of Applied Sciences. I encourage students to use their computers to assist them in their thesis writing. This includes the use of a Quarto or \LaTeX\ template, a bibliography manager, and appropriate language tools. I address common, easily avoidable mistakes students make, I recommend sources on how to write well, and I explain how to identify poor sources that are inappropriate for an academic papers. 
- 
+This paper is intended to help (my) students to write a scientific paper using their computers and resources efficiently. This includes avoiding common mistakes, recognizing and avoiding bad literature, using my Fresenius University of Applied Sciences templates in Quarto or \LaTeX\, setting up a bibliography manager and using appropriate language tools.
+
 \newpage
 \thispagestyle{empty}
 \tableofcontents
 
 \newpage
-# Introduction
+# Introduction {#sec-intro}
 
 In this paper, I provide tips on how to use of the available resources (time, intellect, technology, supervision, etc.) efficiently when writing a academic paper. I refrain from specific advice on good writing, structuring your thesis, or adhering to academic rules and conventions. Therefore, I recommend the following resources:
 
@@ -68,16 +68,20 @@ In this paper, I provide tips on how to use of the available resources (time, in
 
 @Nikolov2023Writing and @Cochrane2005 offer excellent and concise guides with numerous tips you shouldn't miss. @Zinsser2016Writing elaborates on how to write in a convincing, clear, and appealing manner. The long-seller @StrunkJr1999Elements focuses on grammar and language and is available online [here](http://www.jlakes.org/ch/web/The-elements-of-style.pdf) or slightly abridged [here](https://assets.uni-augsburg.de/media/filer_public/11/63/1163e0de-57ae-4b3d-8485-7155dc131235/strunkwhite-tipps-stilelemente.pdf).
 
-The next sections hopefully make the theses that I must examine a bit better so that I can keep my assessment reports short and not have to list all the shortcomings to justify poor grades.
+I hope that the following sections will help you to improve your work. Admittedly, these recommendations are somewhat self-serving, as reading and grading poorly written work is not fun and is time consuming. The poorer the quality of a paper, the longer my assessment reports become, as I have to list all the flaws to justify lower marks.
 
 
 # Consider Failure as an Option
 
 You can fail with your thesis. Unfortunately, that happens frequently. Even if there is a second attempt possible, much of the work and time you have put into the failed thesis is lost. Please be aware of this. Failure can result in having to pay tuition for a few more months, explaining to parents that they have to cancel the flight for the graduation ceremony, and more. 
 
+
+
 # Do What You Can Do
 
 Everybody has different talents and writing a thesis requires a special setup of skill. Some of them are difficult to acquire shortly before or during working on your thesis. Luckily some things can be worked out easily and quickly as they are not directly linked to analytical abilities or language wise talents. For example, strictly following the formal guidelines set by your university does not require you to be smart. It just takes a bit of time and effort. I highly recommend discussing the guidelines with your supervisor. In my experience, most supervisors are not overly strict but want students to consistently follow one style guide. That means, whatever rules you apply, do not change  (or forget) the rules within your thesis.
+
+Professors often advise you to “use APA rules”. When they do, ask which edition they refer to. The most recent is the seventh edition and it is explained in the APA manual which is more than 400 pages long [@APA2020Publication]. Undoubtedly, it is time-consuming to study all the rules and labor-intensive to apply them. It is more efficient to use a software that takes care of these rules for you. I recommend using Quarto or \LaTeX, especially the templates I provide. You can find more details at @sec-quartolatex. 
 
 Below, I provide some examples of common, easily avoidable mistakes that students often make:
 
@@ -138,6 +142,13 @@ Inform yourself proactively about the rules and regulations of your university. 
 
 ## Supervisor
 
+### Choose Your Supervisor Wisely
+
+If you have the chance to choose a supervisor, try to find a professor who understands your topic and research area well so that he or she can guide and evaluate you well. Having a supervisor who is familiar with the unique challenges of your research field can be highly beneficial.
+Don't speculate on who tends to give better grades. I don't see this being a successful strategy at Fresenius University of Applied Sciences.   
+
+### Let the Supervisor Supervise You
+
 Every project is unique, and so are the examiners and supervisors involved. It is essential to discuss your project with your supervisors to ensure alignment on what your thesis can, should, and must deliver. It is important to agree on what can be excluded and how to structure your work. Seek recommendations, and if you disagree with your supervisor's suggestions, communicate that clearly before you submit the thesis. Otherwise, follow your professor's advice.
 
 Every supervisor has his own idea to guide you well. Here is my typical procedure:
@@ -152,9 +163,11 @@ Every supervisor has his own idea to guide you well. Here is my typical procedur
 1. __Progress Check (80%)__: When you are about 80% of the way through your working time, send me your table of contents and one subsection of your draft (1-2 pages) that represents your writing style. I will provide detailed written feedback focusing on formal rules, language, and the clarity of your arguments. My feedback aims to be constructive, helping you efficiently use the remaining time to enhance your thesis. I strongly recommend taking advantage of this opportunity, as past students have found my feedback very valuable.
 
 
-# Literature
+# Literature: Avoid Low-Quality Sources
 
-Consider the quality of the resources you read and cite very carefully. Avoid predatory journals and be cautious of information from online blogs, magazines, and other media without a peer-review process. Aim to find more reliable sources from reputable institutes with a reliable peer-review process and non-profit motivations. Do not simply rely on the first Google search result or the selection provided by Google Scholar, as listing there does not guarantee reliability or quality. Don't cite articles and books published by vanity presses. Identifying predatory journals can be challenging, but there are some clear indicators of dubious quality. Here is a checklist to help determine if a source is valid:
+
+
+Writing a successful thesis is an art without strict rules. The tips in the literature cited in @sec-intro are guidelines, not universal rules. However, you should adapt your writing to the reader's expectations, using appropriate arguments, graphs, tables, and references. By studying credible sources, you can learn proper practices and conventions. Unfortunately, many students rely on low-quality work, resulting in a poorly written thesis. Thus, consider the quality of the resources you read and cite very carefully. Avoid predatory journals and be cautious of information from online blogs, magazines, and other media without a peer-review process. Aim to find more reliable sources from reputable institutes with a reliable peer-review process and non-profit motivations. Do not simply rely on the first Google search result or the selection provided by Google Scholar, as listing there does not guarantee reliability or quality. Don't cite articles and books published by vanity presses. Identifying predatory journals can be challenging, but there are some clear indicators of dubious quality. Here is a checklist to help determine if a source is valid:
 
 - __Listing in Beall’s List:__ Check if the journal or publisher is included in [Beall's List](https://beallslist.net/) or on [TUM's website](https://www.ub.tum.de/en/predatory-journals).
 - __Open-Access status:__ Determine if the paper or journal is open-access. If it is, consider who is financing the journal. Predatory journals often require authors to pay for publication, and their peer-review process is often questionable.
@@ -166,11 +179,17 @@ By following these guidelines, you can ensure that the sources you use and cite 
 Please keep in mind that there is no rule without an exception. For example, it can sometimes be appropriate to cite a post from an online blog. However, you should provide a clear reason for doing so. If you are uncertain, consult your supervisor.
 
 
-## Exercise {.unlisted .unnumbered}
+
+
+
+
+::: {.callout-note icon="false" appearance="default" title="Exercise"}
 
 Familiarize yourself with the
-[International Research Journal of Engineering and Technology (IRJET)](https://www.irjet.net/)). What do you think? Do you think it is difficult to publish in this journal? Do you think it is a journal with a good reputation? What do you think about the peer review process? Ask your supervisor what they think about the journal. Reflect on these aspects to form an educated opinion about IRJET.
+[International Research Journal of Engineering and Technology (IRJET)](https://www.irjet.net/). What do you think? Do you think it is difficult to publish in this journal? Do you think it is a journal with a good reputation? What do you think about the peer review process? Ask your supervisor what they think about the journal. Reflect on these aspects to form an educated opinion about IRJET.
 
+
+:::
 
 \newpage
 # References {-}
