@@ -46,7 +46,7 @@ lang: en
 ---
   
 
-# Zusammenfassung {.unnumbered}
+# Abstract {.unnumbered}
 
 \noindent 
 This template was created by Prof. Dr. Stephan Huber. It is based on the Quarto extension `apaquarto` created by @Schneider2024quarto. More detailed explanations and examples of use can be found in the PDF “roadshow_apa_en.pdf”.
@@ -62,7 +62,7 @@ This template was created by Prof. Dr. Stephan Huber. It is based on the Quarto 
 
 \newpage
 
-# Literaturverzeichnis {.unnumbered}
+# References {.unnumbered}
 
 ::: {#refs}
 :::

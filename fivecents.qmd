@@ -32,6 +32,7 @@ nondisclosure: false
 nondisclosuredate: "January 1, 2076"
 
 bibliography: "/home/sthu/Dropbox/LIT/LIT_full.bib"
+csl: "https://www.zotero.org/styles/apa"
 
 format:
   apaquarto-pdf:
@@ -171,12 +172,12 @@ Writing a successful thesis is an art without strict rules. The tips in the lite
 
 - __Listing in Beall’s List:__ Check if the journal or publisher is included in [Beall's List](https://beallslist.net/) or on [TUM's website](https://www.ub.tum.de/en/predatory-journals).
 - __Open-Access status:__ Determine if the paper or journal is open-access. If it is, consider who is financing the journal. Predatory journals often require authors to pay for publication, and their peer-review process is often questionable.
-- __Publisher reputation:__ Some large publishers serve as hubs for conferences and organizations to publish journals and articles. While a few journals from publishers like [IEEE](https://www.ieee.org/), [ACM](https://dl.acm.org/), and [MDPI](https://www.mdpi.com/) are of acceptable quality due to rigorous editorial standards, many are of low quality or predatory. Approach these publishers with caution and consult your supervisor if in doubt.
+- __Publisher reputation:__ Some large publishers serve as hubs for conferences and organizations to publish journals and articles. While a few journals from publishers like [IEEE](https://www.ieee.org/), [ACM](https://dl.acm.org/), [scirp.org](https://www.scirp.org/), [SciEP](https://www.sciepub.com/), [Science of Europe](https://www.europe-science.com/), and [MDPI](https://www.mdpi.com/) are of acceptable quality due to rigorous editorial standards, most journals are of low quality or predatory. Avoid these publishers or at least approach them with caution and consult your supervisor if in doubt.
 - __SJR ranking:__ Is the journal listed in the [SCImago Journal Rank](https://www.scimagojr.com) and how is their ranking?
-- __Questionable impact factor lists:__ Is the journal listed in dubious impact factor lists? The [Scientific Jourrnal Impact Factor (sjifactor.com)](https://sjifactor.com/), for example, claims to determine the impact of a journal. However, the service provider remains anonymous, with no masthead, address or contact information other than an e-mail. This anonymity, which is against the law in many countries, including Europe, casts doubt on the quality and validity of the service, especially as the methodology of the Impact Factor is not transparent.
-By following these guidelines, you can ensure that the sources you use and cite in your work are of high quality and reliability.
+- __Questionable impact factor lists:__ Is the journal listed in dubious impact factor lists? The [Scientific Jourrnal Impact Factor (sjifactor.com)](https://sjifactor.com/), for example, claims to determine the impact of a journal. However, the service provider remains anonymous, with no masthead, address or contact information other than an e-mail. This anonymity, which is against the law in many countries, including Europe, casts doubt on the quality and validity of the service, especially as the methodology is not transparent.
 
-Please keep in mind that there is no rule without an exception. For example, it can sometimes be appropriate to cite a post from an online blog. However, you should provide a clear reason for doing so. If you are uncertain, consult your supervisor.
+By following these guidelines, you can ensure that the sources you use and cite in your work are of high quality and reliability.
+However, note that there is no rule without an exception. For example, it can sometimes be appropriate to cite a post from an online blog. However, you should provide a clear reason for doing so. If you are uncertain, consult your supervisor.
 
 
 
