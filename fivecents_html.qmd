@@ -1,63 +1,31 @@
 ---
-university: "University of Applied Science Fresenius"
-studiengang: |
-    | International Business School
-place: "Cologne"
-
-
 title: "My Five Cents on How to Write a Thesis"
-title-secondline: ""
-subtitle: ""
-shorttitle: ""
-suppress-short-title: true
-
-thesistype: "A Guide for My Students"
-studyprogram: ""
-
-author:
-  - name: |
-      | Prof. Dr. Stephan Huber
-      | [https://hubchev.github.io](https://hubchev.github.io/)
-    affiliations:
-      city: Cologne
-    corresponding: false
-studentid: ""
-examiner1: ""
-examiner2: ""
-
-duedate: ""
-nowdate: \today
-
-nondisclosure: false
-nondisclosuredate: "January 1, 2076"
+subtitle: "A Guide for My Students"
+author: 
+    name: "© Prof. Dr. Stephan Huber"
+    email: stephan.huber@hs-fresenius.de
+    affiliation: 
+      - Hochschule Fresenius - University of Applied Science
+      - "Email: stephan.huber@hs-fresenius.de"
+      - "Website: https://hubchev.github.io"
+date: today
+date-format: long
+abstract: |
+    This paper is intended to help (my) students to write a scientific paper using their computers and resources efficiently. This includes avoiding common mistakes, recognizing and avoiding bad literature, using my Fresenius University of Applied Sciences templates in Quarto or \LaTeX\, setting up a bibliography manager and using appropriate language tools.
 
 bibliography: "/home/sthu/Dropbox/LIT/LIT_full.bib"
 csl: "https://www.zotero.org/styles/apa"
 
 format:
-  apaquarto-pdf:
-    documentmode: stu
-floatsintext: true
-fig-pos: 't'
-number-sections: true
-a4paper: true
-fontsize: 12pt
-indent-skip-first: false
-indent-skip-all: false
-lang: en
+  html:
+    toc: true
+    toc-title: "Table of Contents"
+    number-sections: true
+    self-contained: true # Embed everything into a single HTML file
+    lang: en
 ---
   
-  
-# Abstract {-}
 
-\noindent 
-This paper is intended to help (my) students to write a scientific paper using their computers and resources efficiently. This includes avoiding common mistakes, recognizing and avoiding bad literature, using my Fresenius University of Applied Sciences templates in Quarto or \LaTeX\, setting up a bibliography manager and using appropriate language tools.
-
-\newpage
-\thispagestyle{empty}
-\tableofcontents
-
-\newpage
 # Introduction {#sec-intro}
 
 In this paper, I provide tips on how to use of the available resources (time, intellect, technology, supervision, etc.) efficiently when writing a academic paper. I refrain from specific advice on good writing, structuring your thesis, or adhering to academic rules and conventions. Therefore, I recommend the following resources:
