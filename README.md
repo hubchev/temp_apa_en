@@ -1,6 +1,6 @@
 # Template for writing a thesis / term paper according to APA 7 guidelines
 
-This repository contains a Quarto template including a Quarto extension. This template was created for the course empirical scientific work, which I held for the University of Applied Science Fresenius. The course language and the language of the template is English. This template makes it easier to create a text - including cover page - according to the APA 7 guidelines with Quarto. 
+This repository contains a Quarto template including a Quarto extension. This template was created for the course empirical scientific work, which I held for the University of Applied Science Fresenius. The course language and the language of the template is English. This template makes it easier to create a text - including cover page - according to the APA-7 guidelines with Quarto. 
 
 # Preparation of the PC
 

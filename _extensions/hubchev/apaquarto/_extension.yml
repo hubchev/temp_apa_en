@@ -16,13 +16,13 @@ contributes:
       toc: false
       fig-width: 6.5
       fig-height: 6.5
-      suppress-title-page: true
+      suppress-title-page: false
       suppress-title-page-number: false
       suppress-title: false
       suppress-short-title: false
       suppress-author: false
       suppress-affiliation: false
-      suppress-author-note: false
+      suppress-author-note: true
       suppress-orcid: false
       suppress-status-change-paragraph: false
       suppress-disclosures-paragraph: false
@@ -126,6 +126,7 @@ contributes:
         opts_chunk: 
           dev: svglite
     pdf:
+      suppress-title-page: true
       documentclass: apa7
       pdf-engine: xelatex
       suppress-bibliography: false
