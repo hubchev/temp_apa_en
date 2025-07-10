@@ -35,6 +35,11 @@ bibliography: "literatur.bib"
 format:
   apaquarto-pdf:
     documentmode: stu
+geometry:
+  - right=2.5cm
+  - left=4.5cm
+  - top=2.5cm
+  - bottom=2.5cm
 floatsintext: true
 fig-pos: 't'
 number-sections: true
@@ -62,30 +67,34 @@ This template was created by Prof. Dr. Stephan Huber. It is based on the Quarto 
 
 \newpage
 
-# References {.unnumbered}
-
-::: {#refs}
-:::
 
 # Introduction
 
-Text
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 # Main Body
 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+
 ## Heading 
 
-Text
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 ## Another Heading
 
-Text
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 # Conclusion
+
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 \newpage
 \appendix
 
+# References {.unnumbered}
+
+::: {#refs}
+:::
 
 
 # Affidavit 

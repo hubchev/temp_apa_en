@@ -34,6 +34,12 @@ bibliography: "literatur.bib"
 format:
   apaquarto-pdf:
     documentmode: stu
+
+geometry:
+  - right=2.5cm
+  - left=4.5cm
+  - top=2.5cm
+  - bottom=2.5cm
 floatsintext: true
 fig-pos: 't'
 number-sections: true
@@ -191,10 +197,9 @@ In @fig-plotcar a scatterplot is visualized which was generated directly in R. T
 plot(cars)
 ```
 
+In the Appendix [-@sec-Ap1], you find another exampl, that is,  @fig-logo4.   Appendix [-@sec-Ap2] contains  @fig-logo5.
 
-
-
-# Cite Literature
+# Sources
 
 ## BibTeX
 
@@ -216,7 +221,7 @@ A BibTeX file is a text-based file with the extension `.bib` that contains bibli
 }
 ```
 
-Each literature entry has a similar structure. First comes the specification of the type of literature (here: `@Article`). Then the so-called BibTeX key (here: `Huber2016`). This makes it possible to set a corresponding reference in the text, see @sec-cite. Finally, there is the information that is further processed by the selected citation style (default: APA 7). 
+Each literature entry has a similar structure. First comes the specification of the type of literature (here: `@Article`). Then the so-called BibTeX key (here: `Huber2016`). This makes it possible to set a corresponding reference in the text, see @sec-cite. Finally, there is the information that is further processed by the selected citation style (default: APA 7). In Appendix [-@sec-bibtexfile] you find the BibTeX entries for various types of documents.
 
 
 ## Literature Management {#sec-jabref}
@@ -303,7 +308,8 @@ Tables can be created flexibly with Markdown. The possibilities are explained on
 \newpage
 \appendix
 
-# First Attachment 
+# Additional Figures {#sec-Ap1}
+
 
 Here is text and @fig-logo4.
 
@@ -315,7 +321,7 @@ Here is text and @fig-logo4.
   }
 
 \newpage
-# Second Attachment 
+# Second Attachment {#sec-Ap2}
 
 Here is text and @fig-logo5.
 
@@ -325,6 +331,7 @@ Here is text and @fig-logo5.
   width="2in" 
   apa-note="This is the logo of Hochschule Fresenius."
   }
+  
 
 \newpage
 # BibTex file {#sec-bibtexfile}
