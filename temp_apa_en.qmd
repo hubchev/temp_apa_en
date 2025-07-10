@@ -54,23 +54,21 @@ lang: en
 # Abstract {.unnumbered}
 
 \noindent 
-This template was created by Prof. Dr. Stephan Huber. It is based on the Quarto extension `apaquarto` created by @Schneider2024quarto. More detailed explanations and examples of use can be found in the PDF “roadshow_apa_en.pdf”.
+This template was created by Prof. Dr. Stephan Huber and is based on the Quarto extension apaquarto [@Schneider2024quarto] and the \LaTeX\ package apa7 [@Weiss2022Formatting]. For the most part, it is designed in accordance with APA stlye (7th Edition) guidelines. However, some adjustments have been made to conform to the formatting requirements specified in the "Handbook of Academic Writing" [@Hildebrandt2019Handbook, Section 4.1.2]. More detailed explanations and examples of use can be found in the PDF “roadshow_apa_en.pdf”.
 
 \newpage
 \thispagestyle{empty}
 \tableofcontents
 \clearpage
 \listoffigures
+\clearpage
 \listoftables
-
-\newpage
-
-\newpage
+\clearpage
 
 
 # Introduction
 
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 # Main Body
 
@@ -78,7 +76,17 @@ Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 ## Heading 
 
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text see @tbl-something. 
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12 | 12 | 12 | 12 |
+| 123 | 123 | 123 | 123 |
+| 1 | 1 | 1 | 1 |
+
+: An Example Table Created With Markdown {#tbl-something apa-note="Here is a note."}
+
+
 
 ## Another Heading
 
@@ -86,15 +94,24 @@ Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
 # Conclusion
 
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text, see @fig-logo.
 
-\newpage
-\appendix
 
+![A Large Logo](logo.png){
+  #fig-logo
+  width="5in" 
+  apa-note="Here is a note about the image."
+  }
+
+\clearpage
 # References {.unnumbered}
 
 ::: {#refs}
 :::
+
+
+\clearpage
+\appendix
 
 
 # Affidavit 

@@ -1,15 +1,20 @@
-# Template for writing a thesis / term paper according to APA 7 guidelines
+# Template for writing a thesis / term paper according to the regulations of the Hochschule Fresenius applying APA 7 guidelines
 
-This repository contains a Quarto template including a Quarto extension. This template was created for the course empirical scientific work, which I held for the University of Applied Science Fresenius. The course language and the language of the template is English. This template makes it easier to create a text - including cover page - according to the APA-7 guidelines with Quarto. 
+This repository contains a Quarto template including a Quarto extension. 
+This template was created by Prof. Dr. Stephan Huber and is based on the Quarto extension apaquarto [@Schneider2024quarto] and the \LaTeX\ package apa7 [@Weiss2022Formatting]. For the most part, it is designed in accordance with APA stlye (7th Edition) guidelines. However, some adjustments have been made to conform to the formatting requirements specified in the "Handbook of Academic Writing" [@Hildebrandt2019Handbook, Section 4.1.2]. More detailed explanations and examples of use can be found in the PDF “roadshow_apa_en.pdf”.
+
+In order to use the template download the repo and prepare your PC as explained below. If you don't want to install anything on your PC, feel free to run everything in the cloud using [Posit Cloud](https://posit.cloud/). If you do so do not forget to install an up to date version of tinytex. If you struggle with anything, write me a note.
+
 
 # Preparation of the PC
 
 - Install R: [https://www.r-project.org/](https://cran.rstudio.com/)
 - Install R Studio: [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
 - Install Quarto (version = 1.4 or higher): [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/)
-- Install the R package `quarto` with
+- Install the R package `quarto` and `tinytex` with
 ```{r}
 install.packages("quarto")
+install.packages("tinytex")
 ```
 The `quarto` package in R is not Quarto itself, but it provides handy functions for interacting with Quarto in R.
 

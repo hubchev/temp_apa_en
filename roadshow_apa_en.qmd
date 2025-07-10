@@ -12,14 +12,15 @@ subtitle: ""
 shorttitle: ""
 suppress-short-title: true
 
+
 thesistype: "XXX Bachelor’s/Master’s Thesis XXX"
 studyprogram: "XXX Bachelor of Arts (B.A.)/Bachelor of Laws (LL.B.)/Bachelor of Science (B.Sc.)/Master of Arts (M.A.)/Master of Business Administration (MBA)/Master of Science (M.Sc.) XXX"
-
+  
 author:
   - name: "XXX Your Name XXX"
     affiliations:
       city: Cologne
-    corresponding: false
+    corresponding: true
 studentid: "XXX"
 examiner1: Prof. Dr. XXX
 examiner2: Prof. Dr. XXX
@@ -30,11 +31,12 @@ nondisclosure: false
 nondisclosuredate: "January 1, 2076"
 
 bibliography: "literatur.bib"
-
+# csl: "https://www.zotero.org/styles/deutsche-gesellschaft-fur-psychologie"
+# csl: "https://www.zotero.org/styles/chicago-author-date"
+# csl: "https://www.zotero.org/styles/apa-6th-edition"
 format:
   apaquarto-pdf:
     documentmode: stu
-
 geometry:
   - right=2.5cm
   - left=4.5cm
@@ -42,32 +44,40 @@ geometry:
   - bottom=2.5cm
 floatsintext: true
 fig-pos: 't'
+tbl-pos: 't'
 number-sections: true
 a4paper: true
 fontsize: 12pt
 indent-skip-first: false
 indent-skip-all: false
 lang: en
+keep-tex: true
 ---
-  
-  
+
 # Abstract {-}
 
 \noindent 
-This template was created by Prof. Dr. Stephan Huber.  It is based on Quarto extension `apaquarto` [@Schneider2024quarto]. 
+This template was created by Prof. Dr. Stephan Huber and is based on the Quarto extension apaquarto [@Schneider2024quarto] and the \LaTeX\ package apa7 [@Weiss2022Formatting]. For the most part, it is designed in accordance with APA stlye (7th Edition) guidelines. However, some adjustments have been made to conform to the formatting requirements specified in the "Handbook of Academic Writing" [@Hildebrandt2019Handbook, Section 4.1.2].
 
 \newpage
 \thispagestyle{empty}
 \tableofcontents
 \clearpage
 \listoffigures
+\clearpage
 \listoftables
 
 
 \newpage
 # Introduction
 
-This is a template. You can use it to write your student paper or your thesis with Quarto. The formatting follows the guidelines set out in @ConciseGuideAPA2020,  also known as the APA rules in the 7th Edition. This template was written by me, Prof. Dr. Stephan Huber^[Email: `stephan.huber@hs-fresenius.de`]. I have adapted the Quarto extension `apaquarto` from @Schneider2024quarto. The title page was created according to the specifications of the University of Applied Science Fresenius. If you have any suggestions for improvement, please let me know. If you need help with Quarto, you are welcome to drop by during my office hours. All informations on how to contact me can be found on my [personal website](https://hubchev.github.io/). 
+
+
+This is a template. You can use it to write your student paper or your thesis with Quarto. The formatting follows the guidelines set out in @ConciseGuideAPA2020,  also known as the APA rules in the 7th Edition. This template was written by me, Prof. Dr. Stephan Huber^[Email: `stephan.huber@hs-fresenius.de`]. I have adapted the Quarto extension `apaquarto` from @Schneider2024quarto and the \LaTeX\ package apa7 [@Weiss2022Formatting]. The title page was created according to the specifications of the University of Applied Science Fresenius. 
+In comparison to APA 7 a few little things differ. For example, the headings have different font sizes and the line spacing is 1.5.  
+If you have any suggestions for improvement, please let me know. If you need help with Quarto, you are welcome to drop by during my office hours. All informations on how to contact me can be found on my [personal website](https://hubchev.github.io/). 
+
+
 
 You can download the template with the corresponding files on studynet and here: [https://github.com/hubchev/temp_apa_en](https://github.com/hubchev/temp_apa_en).
 
@@ -149,9 +159,19 @@ Double footnote reference[^second].
 [^second]: Footnote text.
 
 
+## Tables
 
+Tables can be created flexibly with Markdown. The possibilities are explained on the website [https://quarto.org/docs/authoring/tables.html](https://quarto.org/docs/authoring/tables.html). @tbl-example, for example, is created with Markdown code.
 
-## Images
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12 | 12 | 12 | 12 |
+| 123 | 123 | 123 | 123 |
+| 1 | 1 | 1 | 1 |
+
+: An Example Table Created With Markdown {#tbl-example apa-note="Here is a note."}
+
+## Figures
 
 ### Include Image Files {#sec-imageload}
 
@@ -185,6 +205,7 @@ knitr::include_graphics("logo.png")
 
 In @fig-plotcar a scatterplot is visualized which was generated directly in R. This has the advantage that the data is generated and visualized directly in Quarto. The data is therefore always up-to-date, changes can be made directly here, the work is completely transparent and replicable. In addition, there is no need to save and export the graphic. 
 
+In the Appendix [-@sec-Ap1], you find another exampl, that is,  @fig-logo4.   Appendix [-@sec-Ap2] contains  @fig-logo5.
 
 ```{r}
 #| label: fig-plotcar
@@ -196,8 +217,6 @@ In @fig-plotcar a scatterplot is visualized which was generated directly in R. T
 
 plot(cars)
 ```
-
-In the Appendix [-@sec-Ap1], you find another exampl, that is,  @fig-logo4.   Appendix [-@sec-Ap2] contains  @fig-logo5.
 
 # Sources
 
@@ -229,17 +248,24 @@ Each literature entry has a similar structure. First comes the specification of 
 A BibTeX file can quickly become confusing. I therefore recommend using a reference management program such as JabRef, see: [www.jabref.org](www.jabref.org). The program is free and works on all your devices and with all operating systems. In particular, it can handle BibTeX files well. You may wonder what a BibTeX file is. Install JabRef and open the `bibliography.bib` file of this template, then you will understand what I mean.
 
 
-##  APA and CSL {#sec-apa}
+##  APA, Chicago, and CSL {#sec-apa}
 
 The predefined bibliography style of this template is APA in the 7th edition. You can change this. To do this, simply specify the corresponding style in the (YAML) header of this template. This is done using a file with the extension `CSL` which stands for "Citation Style Language". This file contains the citation rules so that the computer can implement them. On [https://www.zotero.org/styles](https://www.zotero.org/styles) you will find a variety of styles. For example, if you want to use APA in the 6th edition, enter the following in the header:
 
 ```{verbatim}
 csl: "https://www.zotero.org/styles/apa-6th-edition"
 ```
+If you want to use Chicago Manual Stlye in the 17th edition, enter the following in the header:
+
+```{verbatim}
+csl: "https://www.zotero.org/styles/chicago-author-date" 
+```
 
 ## Cite Literature {#sec-cite}
 
 Other works are often cited in scientific texts. This can be done in many different ways. @tbl-letters shows how to cite. 
+
+
 
 | Code | How it appears in the text |
 |------------------------------|------------------------------------|
@@ -248,9 +274,9 @@ Other works are often cited in scientific texts. This can be done in many differ
 | `[@Huber2016]` | [@Huber2016] |
 | `[@Huber2016, 3-5]` | [@Huber2016, 3-5] |
 | `[@Huber2016; @Aust2023]` | [@Huber2016; @Aust2023] |
-| `[Cf. @Aust2023, p. 31; @Huber2016, p. 13]` | [Cf. @Aust2023, p. 31; @Aust2023, p. 13] |
+| `[see @Aust2023, p. 31; @Huber2016, p. 13]` | [see @Aust2023, p. 31; @Huber2016, p. 13] |
 
-: This Is How Literature Can Be Cited {#tbl-letters}
+: This Is How Literature Can Be Cited {#tbl-letters  data-quarto-disable-processing="true"}
 
 
 Hyperlinks can also be set. For example, `[Google](www.google.de)` appears as [Google](www.google.de).
@@ -278,34 +304,12 @@ The corresponding bibtex file should contain the entries. They are displayed in 
 
 
 
-# Tables
-
-Tables can be created flexibly with Markdown. The possibilities are explained on the website [https://quarto.org/docs/authoring/tables.html](https://quarto.org/docs/authoring/tables.html). @tbl-example, for example, is created with Markdown code.
-
-
-:::{#tbl-example apa-note="Here is a note."}
-| Default | Left | Right | Center |
-|---------|:-----|------:|:------:|
-| 12 | 12 | 12 | 12 |
-| 123 | 123 | 123 | 123 |
-| 1 | 1 | 1 | 1 |
-
-: An Example Table Created With Markdown
-:::
-
-
-
-
-
-
-
-
-\newpage
+\clearpage
 # References {-}
 ::: {#refs}
 :::
 
-\newpage
+\clearpage
 \appendix
 
 # Additional Figures {#sec-Ap1}

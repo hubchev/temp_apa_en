@@ -2,8 +2,6 @@ $doc-class.tex()$
 \usepackage{amsmath}
 \usepackage{amssymb}
 
-\usepackage[globalsuspend=true]{assoccnt}
-\SuspendCounters{table}
 
 $if(docmode)$
 \geometry{inner=1in, outer=1in}
@@ -167,12 +165,12 @@ $if(journalmode)$
 
 \newenvironment{twocolumntable}% environment name
 {% begin code
-\begin{table*}[!htbp]%
+\begin{table}[!htbp]%
 \onecolumn%
 }%
 {%
 \twocolumn%
-\end{table*}%
+\end{table}%
 }% end code
 $else$
 \makeatletter

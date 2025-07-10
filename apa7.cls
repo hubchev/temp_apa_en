@@ -669,11 +669,11 @@
 
 \renewcommand{\section}{\@startsection {section}{1}{\z@}%
     {\b@level@one@skip}{\e@level@one@skip}%
-    {\centering\normalfont\normalsize\bfseries}}
+    {\normalfont\Large\bfseries}}
 
 \renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
     {\b@level@two@skip}{\e@level@two@skip}%
-    {\normalfont\normalsize\bfseries}}
+    {\normalfont\large\bfseries}}
 
 \newcommand*{\typesectitle}[1]{#1\addperi}
 
@@ -685,7 +685,7 @@
 
 \renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
     {\b@level@three@skip}{\e@level@three@skip}%
-    {\normalfont\normalsize\bfseries\itshape}}
+    {\normalfont\normalsize\bfseries}}
 
 \renewcommand{\paragraph}{\@startsection{paragraph}{4}{\parindent}%
     {\b@level@four@skip}%
