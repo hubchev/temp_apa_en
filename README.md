@@ -30,19 +30,7 @@ In GitHub, click on the green `<> Code v` button found in this repository. In th
 
 You can download the repository in a zipped file using [this link](https://github.com/hubchev/temp_apa_en/zipball/HEAD). Now you can unzip it to a directory of your choice.
 
-## Method 2: Using R
-
-### Method 2 a): `quarto_use_template()`
-
-If you have installed the R package `quarto`, the template can be copied with the function `quarto_use_template`. To do this, set your working directory to the directory in which you want to install the template (e.g. `setwd("path/to/my/folder")`). Make sure that the directory is empty and execute this command:
-
-```{r}
-quarto::quarto_use_template("hubchev/temp_apa_en")
-```
-
-A prompt will ask if you trust the author (me) not to execute malicious code. To continue, reply with `Yes` or simply `Y`.
-
-### Method 2 b): usethis::use_course()
+## Method 2: usethis::use_course()
 
 Install and download the usethis package and download it with `use_course`:
 

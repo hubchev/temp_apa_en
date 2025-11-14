@@ -30,7 +30,7 @@ duedate: "XXX January 13, 2026 XXX"
 nondisclosure: false
 nondisclosuredate: "January 1, 2076"
 
-bibliography: "literatur.bib"
+bibliography: "bibliography.bib"
 # csl: "https://www.zotero.org/styles/deutsche-gesellschaft-fur-psychologie"
 # csl: "https://www.zotero.org/styles/chicago-author-date"
 # csl: "https://www.zotero.org/styles/apa-6th-edition"
